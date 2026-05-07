@@ -1,18 +1,102 @@
 [
   {
     "question": "What is your return policy?",
-    "answer": "You can return items within 30 days."
+    "patterns": [
+      "return policy kya hai",
+      "product wapis karna ho to kya karun",
+      "item return krna hai",
+      "order wapas kar sakta hun",
+      "return ka tareeqa batao",
+      "refund ya return kesy hoga",
+      "agar product pasand na aye to kya karen"
+    ],
+    "answer": "You can return items within 30 days of receiving your order. Please keep the item unused, in its original packaging, and include your order details. Once we receive and inspect the returned item, we will process your refund or guide you about an exchange if that is what you prefer."
   },
   {
     "question": "How long does shipping take?",
-    "answer": "Shipping takes 3-5 business days."
+    "patterns": [
+      "shipping kitni der me hoti hai",
+      "delivery kab tak ayegi",
+      "order kitne din me milega",
+      "parcel kab pohanchay ga",
+      "delivery time kya hai",
+      "shipping time batao",
+      "mera order kab tak deliver hoga"
+    ],
+    "answer": "Shipping usually takes 3-5 business days after your order is confirmed. Delivery time can vary a little depending on your city, courier load, public holidays, or weather conditions. When your order is shipped, you should receive tracking details so you can follow the parcel status."
   },
   {
     "question": "Do you offer international shipping?",
-    "answer": "Yes, we ship worldwide."
+    "patterns": [
+      "international shipping available hai",
+      "kya ap pakistan se bahir ship karte hain",
+      "worldwide delivery hai",
+      "bahar mulk order bhej sakte ho",
+      "overseas delivery karte ho",
+      "dusre country me parcel bhejte ho"
+    ],
+    "answer": "Yes, we offer international shipping to many countries. Shipping charges and delivery time depend on the destination country and courier service. Customs duty, import taxes, or local clearance charges may apply in some countries, and those are usually handled by the customer."
   },
   {
     "question": "How can I contact support?",
-    "answer": "You can email us at support@example.com."
+    "patterns": [
+      "support se rabta kesy karun",
+      "customer care ka contact do",
+      "help chahiye kis se baat karun",
+      "team se contact karna hai",
+      "complaint kahan karun",
+      "email address kya hai",
+      "support ka number ya email batao"
+    ],
+    "answer": "You can contact support by emailing support@example.com. Please include your name, order number, and a clear explanation of the issue so the team can help faster. If your question is about delivery, also share any tracking number you have."
+  },
+  {
+    "question": "How can I track my order?",
+    "patterns": [
+      "order track kesy karun",
+      "tracking kaise check karni hai",
+      "mera parcel kahan hai",
+      "order status batao",
+      "tracking number se kya karun",
+      "delivery status check karna hai"
+    ],
+    "answer": "After your order is shipped, you will receive a tracking number or tracking link. Open that link to see the latest parcel status. If the tracking has not updated yet, wait a few hours because courier systems sometimes take time to refresh. If it still does not update, contact support with your order number."
+  },
+  {
+    "question": "Can I change or cancel my order?",
+    "patterns": [
+      "order cancel karna hai",
+      "order change ho sakta hai",
+      "address change karna hai",
+      "galat order place ho gaya",
+      "order me item change kar sakta hun",
+      "cancel kesy hoga"
+    ],
+    "answer": "You can request a change or cancellation as soon as possible after placing the order. If the order has not been packed or shipped yet, support can usually help update the address, change details, or cancel it. Once the parcel is shipped, changes may not be possible and you may need to follow the return process after delivery."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "patterns": [
+      "payment kesy karni hai",
+      "cash on delivery hai",
+      "cod available hai",
+      "card se pay kar sakta hun",
+      "payment options kya hain",
+      "online payment hoti hai"
+    ],
+    "answer": "We accept common payment methods such as online payment and cash on delivery where available. The exact options may depend on your location and the checkout settings. If a payment fails, try again after checking your card or account details, or contact support for help."
+  },
+  {
+    "question": "What should I do if I receive a damaged or wrong item?",
+    "patterns": [
+      "damage product mila hai",
+      "wrong item aa gaya",
+      "galat parcel mil gaya",
+      "product toot gaya hai",
+      "item kharab nikla",
+      "complaint karni hai damaged order ki",
+      "jo order kia tha wo nahi aya"
+    ],
+    "answer": "If you receive a damaged, defective, or wrong item, contact support as soon as possible. Share your order number, clear photos or video of the item, and packaging if possible. The team will review the issue and guide you about replacement, exchange, or refund based on the case."
   }
 ]
